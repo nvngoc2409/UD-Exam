@@ -1,0 +1,80 @@
+8
+
+dir
+3
+https://subversion.assembla.com/svn/ud-exam/trunk/UD%20Exam/res/drawable-hdpi
+https://subversion.assembla.com/svn/ud-exam
+
+
+
+2012-08-01T01:47:41.750254Z
+3
+ninhngoc.t4.bkdn@gmail.com
+
+
+svn:special svn:externals svn:needs-lock
+
+start.png
+file
+
+
+
+
+2012-07-18T06:51:29.070694Z
+ed26b701ee86bcf938808aa6b97008d0
+2012-08-01T01:47:41.750254Z
+3
+ninhngoc.t4.bkdn@gmail.com
+has-props
+
+chon_mon.png
+file
+
+
+
+
+2012-07-18T07:29:26.850975Z
+335344d9203e1a8d8a29c6a357565c85
+2012-08-01T01:47:41.750254Z
+3
+ninhngoc.t4.bkdn@gmail.com
+has-props
+
+color_overlay.9.png
+file
+
+
+
+
+2012-07-16T05:16:39.961000Z
+b6b97c526180ce9f68effc52e635af6c
+2012-08-01T01:47:41.750254Z
+3
+ninhngoc.t4.bkdn@gmail.com
+has-props
+
+white_button.xml
+file
+
+
+
+
+2012-07-18T07:15:42.252811Z
+b0b6bc3b0a760b7e9ab17c288216e756
+2012-08-01T01:47:41.750254Z
+3
+ninhngoc.t4.bkdn@gmail.com
+
+transparent_overlay.9.png
+file
+
+
+
+
+2012-07-16T05:16:39.963000Z
+3884a592aa59c50af68e9dd3df22a1fd
+2012-08-01T01:47:41.750254Z
+3
+ninhngoc.t4.bkdn@gmail.com
+has-props
+

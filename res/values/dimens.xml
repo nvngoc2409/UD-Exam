@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="base_padding">10dp</dimen>
+    <dimen name="small_text">13sp</dimen>
+    <dimen name="normal_text">15sp</dimen>
+    <dimen name="size_button">55dp</dimen>
+    
+    <dimen name="large_img_width">210dp</dimen>
+    <dimen name="large_img_height">265dp</dimen>
+</resources>

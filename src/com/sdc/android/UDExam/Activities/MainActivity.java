@@ -1,0 +1,103 @@
+package com.sdc.android.UDExam.Activities;
+
+import com.sdc.android.UDExam.Fragments.AdvancedTestFragment;
+import com.sdc.android.UDExam.Fragments.GroupTestFragment;
+import com.sdc.android.UDExam.Fragments.HelpFragment;
+import com.sdc.android.UDExam.Fragments.HomeFragment;
+import com.sdc.android.UDExam.Fragments.PersonalTestFragment;
+import com.sdc.android.UDExam.Swipeytabs.*;
+
+import android.content.Context;
+import android.os.Build;
+import android.os.Bundle;
+import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentActivity;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentPagerAdapter;
+import android.support.v4.view.ViewPager;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.TextView;
+
+public class MainActivity extends FragmentActivity {
+	
+	public static final int ANDROID_BUILD_GINGERBREAD = 9;
+	public static final int SCREEN_ORIENTATION_SENSOR_LANDSCAPE = 6;
+	private String[] TITLES;
+    private SwipeyTabs mTabs;
+    private ViewPager mViewPager;
+
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+            super.onCreate(savedInstanceState);
+            if (Build.VERSION.SDK_INT >= ANDROID_BUILD_GINGERBREAD) {
+                setRequestedOrientation(SCREEN_ORIENTATION_SENSOR_LANDSCAPE);
+            }
+            
+            setContentView(R.layout.activity_swipeytab);
+
+            TITLES = getResources().getStringArray(R.array.title_string_array);
+            
+            mViewPager = (ViewPager) findViewById(R.id.viewpager);
+            mTabs = (SwipeyTabs) findViewById(R.id.swipeytabs);
+
+            SwipeyTabsPagerAdapter adapter = new SwipeyTabsPagerAdapter(this,
+                            getSupportFragmentManager());
+            mViewPager.setAdapter(adapter);
+            mTabs.setAdapter(adapter);
+            mViewPager.setOnPageChangeListener(mTabs);
+            mViewPager.setCurrentItem(0);
+    }
+
+    private class SwipeyTabsPagerAdapter extends FragmentPagerAdapter implements
+                    SwipeyTabsAdapter {
+            
+            private final Context mContext;
+            
+            public SwipeyTabsPagerAdapter(Context context, FragmentManager fm) {
+                    super(fm);
+
+                    this.mContext = context;
+            }
+
+            @Override
+            public Fragment getItem(int position) {
+            	switch(position){
+            		case 0:
+            			return HomeFragment.init(mViewPager);
+            			
+            		case 2:
+            			return new PersonalTestFragment();
+            			
+            		case 3:
+            			return new GroupTestFragment();
+            			
+            		case 4:
+            			return new AdvancedTestFragment();
+            			
+            		default:
+            			return new HelpFragment();
+            	}                   
+            }
+
+            @Override
+            public int getCount() {
+                    return TITLES.length;
+            }
+
+            public TextView getTab(final int position, SwipeyTabs root) {
+                    TextView view = (TextView) LayoutInflater.from(mContext).inflate(
+                                    R.layout.swipey_tab_indicator, root, false);
+                    view.setText(TITLES[position]);
+                    view.setOnClickListener(new OnClickListener() {
+                            public void onClick(View v) {
+                                    mViewPager.setCurrentItem(position);
+                            }
+                    });
+                    
+                    return view;
+            }
+    }
+
+}

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/ud-exam/!svn/ver/2/trunk/UD%20Exam
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/ud-exam/!svn/ver/3/trunk/UD%20Exam/.classpath
+END
+project.properties
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/ud-exam/!svn/ver/3/trunk/UD%20Exam/project.properties
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/ud-exam/!svn/ver/3/trunk/UD%20Exam/.project
+END
+proguard-project.txt
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/ud-exam/!svn/ver/3/trunk/UD%20Exam/proguard-project.txt
+END
+AndroidManifest.xml
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/ud-exam/!svn/ver/3/trunk/UD%20Exam/AndroidManifest.xml
+END

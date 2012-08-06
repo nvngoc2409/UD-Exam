@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <style name="Theme" parent="android:style/Theme.Light"></style>
+    
+    <style name="Wrap_Wrap">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="Wrap_Fill">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    
+    <style name="Fill_Wrap">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="small_button">
+        <item name="android:layout_width">38dp</item>
+        <item name="android:layout_height">38dp</item>
+    </style> 
+    <style name="Fill_Fill">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    
+    <!-- Saperator -->
+    <style name="Saperator">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_weight">0.6</item>
+    </style>
+    
+    <!-- Detail -->
+    <style name="Detail_liner_2cols">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1.0</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:padding">@dimen/base_padding</item>
+    </style>
+    <style name="Detail_text_view">
+       <item name="android:layout_width">wrap_content</item>
+       <item name="android:layout_height">wrap_content</item>
+       <item name="android:textSize">@dimen/normal_text</item>
+       <item name="android:textColor">@color/detail_text_cl</item>
+    </style>
+    
+    <!-- Liner 2 Button -->
+    <style name="Liner_2Button">
+       <item name="android:layout_width">fill_parent</item>
+       <item name="android:layout_height">0dp</item>
+       <item name="android:layout_weight">1.0</item>
+       <item name="android:padding">@dimen/base_padding</item>
+       <item name="android:orientation">horizontal</item>
+    </style>
+    <!-- Button_Style -->
+    <style name="Button_Style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:background">@color/bg_frag_cl</item>
+        <item name="android:textColor">@color/detail_text_cl</item>
+    </style>
+    
+    <!-- Text Note -->
+    <style name="Text_Note">
+       <item name="android:layout_width">fill_parent</item>
+       <item name="android:layout_height">0dp</item>
+       <item name="android:layout_weight">0.5</item>
+       <item name="android:gravity">center</item>
+       <item name="android:textColor">@color/note_text_cl</item>
+       <item name="android:textSize">@dimen/small_text</item>
+       <item name="android:singleLine">true</item>
+       <item name="android:ellipsize">marquee</item>
+       <item name="android:marqueeRepeatLimit">marquee_forever</item>
+       <item name="android:focusable">false</item>
+       <item name="android:scrollHorizontally">true</item>
+       <item name="android:padding">@dimen/base_padding</item>
+    </style>
+    
+   <!-- Home Layout -->
+   <style name="linear_large">
+       <item name="android:layout_width">0dp</item>
+       <item name="android:layout_height">fill_parent</item>
+       <item name="android:layout_weight">0.79</item>
+       <item name="android:orientation">vertical</item>
+       <item name="android:padding">2dp</item>
+   </style>
+   <style name="linear_small">
+       <item name="android:layout_width">0dp</item>
+       <item name="android:layout_height">fill_parent</item>
+       <item name="android:layout_weight">0.21</item>
+       <item name="android:orientation">vertical</item>
+       <item name="android:paddingTop">2dp</item>
+       <item name="android:paddingRight">2dp</item>
+       <item name="android:paddingBottom">2dp</item>
+   </style>
+   
+   <style name="linear_large_img">
+       <item name="android:layout_width">fill_parent</item>
+       <item name="android:layout_height">0dp</item>
+       <item name="android:layout_weight">0.61</item>
+       <item name="android:orientation">horizontal</item>
+   </style>
+   <style name="linear_normal_img">
+       <item name="android:layout_width">fill_parent</item>
+       <item name="android:layout_height">0dp</item>
+       <item name="android:layout_weight">0.39</item>
+       <item name="android:orientation">horizontal</item>
+       <item name="android:paddingTop">2dp</item>
+   </style>
+   
+   <style name="img_equal_horizontal">
+       <item name="android:layout_width">0dp</item>
+       <item name="android:layout_height">fill_parent</item>
+       <item name="android:layout_weight">1</item>
+   </style>
+   
+   <style name="img_equal_vertical">
+       <item name="android:layout_width">fill_parent</item>
+       <item name="android:layout_height">0dp</item>
+       <item name="android:layout_weight">1</item>
+   </style>
+   
+</resources>

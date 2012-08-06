@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/bg_frag_cl">
+    
+    <LinearLayout
+		style="@style/Liner_2Button"> 
+		<LinearLayout 
+		    android:layout_width="0dp"
+        	android:layout_height="match_parent"
+        	android:layout_weight="0.8"
+        	android:gravity="right">
+		    <Button 
+		        android:id="@+id/bt_choise_subject_av"
+		        style="@style/Button_Style"
+		        android:drawableTop="@drawable/chon_mon"
+		        android:text="@string/choise_subject"/>
+		</LinearLayout>
+        
+		<TextView 
+		    style="@style/Saperator"/>
+		
+		<LinearLayout
+		    android:layout_width="0dp"
+        	android:layout_height="match_parent"
+        	android:layout_weight="0.8"
+        	android:gravity="left">
+		    <Button 
+		        android:id="@+id/bt_start_av"
+		        style="@style/Button_Style"
+		        android:drawableTop="@drawable/create"
+		        android:text="@string/create"/>
+		</LinearLayout>	
+    </LinearLayout>
+    
+    
+    <ListView
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.3"
+        android:clickable="true"
+        android:text="@string/note_advanced_test"
+        />
+
+</LinearLayout>

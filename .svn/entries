@@ -1,0 +1,109 @@
+8
+
+dir
+2
+https://subversion.assembla.com/svn/ud-exam/trunk/UD%20Exam
+https://subversion.assembla.com/svn/ud-exam
+
+
+
+2012-08-01T01:46:43.252712Z
+2
+ninhngoc.t4.bkdn@gmail.com
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+84b7adac-a0f1-44cb-8156-9f366f42c7e0
+
+.classpath
+file
+3
+
+
+
+2012-07-16T04:21:08.002000Z
+190f666332cc550efd902a01024e2762
+2012-08-01T01:47:41.750254Z
+3
+ninhngoc.t4.bkdn@gmail.com
+
+project.properties
+file
+3
+
+
+
+2012-07-16T04:21:14.380000Z
+39e44f0603e86ca7a41bf10a65a9b062
+2012-08-01T01:47:41.750254Z
+3
+ninhngoc.t4.bkdn@gmail.com
+
+assets
+dir
+
+.project
+file
+3
+
+
+
+2012-08-01T01:31:41.858946Z
+ceb907262db1b92a59ca2601ded21fbf
+2012-08-01T01:47:41.750254Z
+3
+ninhngoc.t4.bkdn@gmail.com
+
+proguard-project.txt
+file
+3
+
+
+
+2012-07-16T04:21:07.979000Z
+18bfe77c342b4698f1cef19cf8d918e2
+2012-08-01T01:47:41.750254Z
+3
+ninhngoc.t4.bkdn@gmail.com
+
+AndroidManifest.xml
+file
+3
+
+
+
+2012-08-01T01:33:16.239112Z
+6d23bc8e5aa7d3cdf04d3f602da5b31a
+2012-08-01T01:47:41.750254Z
+3
+ninhngoc.t4.bkdn@gmail.com
+
+src
+dir
+
+bin
+dir
+
+gen
+dir
+
+libs
+dir
+
+res
+dir
+
+.settings
+dir
+

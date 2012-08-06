@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Luyện thi ĐH</string>
+    
+    <string name="home">Trang chủ</string>
+    <string name="review">Ôn tập</string>
+    <string name="personal_test">Thi cá nhân</string>
+    <string name="group_test">Thi nhóm</string>
+    <string name="advanced_test">Thi nâng cao</string>
+    <string name="history">Lịch sử</string>
+    <string name="favourite">Câu hỏi hay</string>
+    <string name="help">Trợ giúp</string>
+    
+    <string name="math">Toán</string>
+    
+    <string-array name="title_string_array">
+        <item>Trang chủ</item>
+        <item>Ôn tập</item>
+        <item>Thi cá nhân</item>
+        <item>Thi nhóm</item>
+        <item>Thi nâng cao</item>
+        <item>Lịch sử</item>
+        <item>Câu hỏi hay</item>
+        <item>Bạn bè</item>
+        <item>Trợ giúp</item>
+    </string-array>
+    
+    <string-array name="subjects">
+        <item>Toán</item>
+        <item>Lý</item>
+        <item>Hóa</item>
+        <item>Sinh</item>
+        <item>Ngoại ngữ</item>
+    </string-array>
+    
+    <string name="login_name">Tên đăng nhập:</string>
+    <string name="password">Mật khẩu</string>
+    <string name="login">Đăng nhập</string>
+    <string name="reset">Làm lại</string>
+    <string name="register">Đăng ký</string>
+    <string name="welcome">Xin chào </string>
+    <string name="logout">Thoát</string>
+    <string name="subject">Môn thi:</string>
+    <string name="code">Mã số đề:</string>
+    <string name="time">Thời gian:</string>
+    <string name="suggest">Xin gợi ý:</string>
+    <string name="choise_subject">Chọn môn</string>
+    <string name="start">Bắt đầu</string>
+    <string name="create">Tạo phòng thi</string>
+    <string name="note_personal_test">Bình tĩnh làm bài. Hãy nhớ rằng bạn có quyền xem lại các câu đã làm, chỉnh sửa trước khi hết thời gian!</string>
+    <string name="note_advanced_test">Cần lưu ý mỗi câu chỉ được phép trả một lần và không được xem lại, vì vậy hãy chắc chắn với đáp án của mình!</string>
+    <string name="comming_soon">Tính năng đang được xây dựng và sẽ sớm được cập nhật!</string>
+    <string name="invite">Mời thí sinh</string>
+    <string name="start_test">Bắt đầu thi</string>
+    <string name="yes">Có</string>
+    <string name="no">Không</string>
+    <string name="minute"> phút</string>
+    <string name="sentence">Câu </string>
+    
+    <string name="md">10011</string>
+    <string name="tg">90 phút</string>
+    
+</resources>

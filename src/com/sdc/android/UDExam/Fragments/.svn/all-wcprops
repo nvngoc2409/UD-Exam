@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/ud-exam/!svn/ver/3/trunk/UD%20Exam/src/com/sdc/android/UDExam/Fragments
+END
+GroupTestFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/ud-exam/!svn/ver/7/trunk/UD%20Exam/src/com/sdc/android/UDExam/Fragments/GroupTestFragment.java
+END
+HistoryFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/ud-exam/!svn/ver/4/trunk/UD%20Exam/src/com/sdc/android/UDExam/Fragments/HistoryFragment.java
+END
+ReviewFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/ud-exam/!svn/ver/4/trunk/UD%20Exam/src/com/sdc/android/UDExam/Fragments/ReviewFragment.java
+END
+PersonalTestFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/ud-exam/!svn/ver/6/trunk/UD%20Exam/src/com/sdc/android/UDExam/Fragments/PersonalTestFragment.java
+END
+FavouriteFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/ud-exam/!svn/ver/4/trunk/UD%20Exam/src/com/sdc/android/UDExam/Fragments/FavouriteFragment.java
+END
+AdvancedTestFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/ud-exam/!svn/ver/6/trunk/UD%20Exam/src/com/sdc/android/UDExam/Fragments/AdvancedTestFragment.java
+END
+HelpFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/ud-exam/!svn/ver/4/trunk/UD%20Exam/src/com/sdc/android/UDExam/Fragments/HelpFragment.java
+END
+HomeFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/ud-exam/!svn/ver/7/trunk/UD%20Exam/src/com/sdc/android/UDExam/Fragments/HomeFragment.java
+END
+FriendsFragment.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/ud-exam/!svn/ver/4/trunk/UD%20Exam/src/com/sdc/android/UDExam/Fragments/FriendsFragment.java
+END

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg_frag_cl">#EFEFEF</color>
+    <color name="detail_text_cl">#333</color>
+    <color name="detail_hr_cl">#67aa9d</color>
+    <color name="note_text_cl">#e95959</color>
+</resources>

@@ -1,0 +1,25 @@
+8
+
+dir
+3
+https://subversion.assembla.com/svn/ud-exam/trunk/UD%20Exam/src/com/sdc/android/UDExam
+https://subversion.assembla.com/svn/ud-exam
+
+
+
+2012-08-01T01:47:41.750254Z
+3
+ninhngoc.t4.bkdn@gmail.com
+
+
+svn:special svn:externals svn:needs-lock
+
+Activities
+dir
+
+Fragments
+dir
+
+Swipeytabs
+dir
+
